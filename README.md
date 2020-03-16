@@ -13,7 +13,9 @@ let  showroomlocation= faker.name.showroomlocation();
 
 let phone = faker.phone.phoneNumber();
 
-console.log(`bike: ${model} ${bikename} ${bikecc} ${colour}`);
-console.log(`company: ${bikecompany}`);
-console.log(`showroomlocation: ${showroomlocation}`);
-console.log(`Phone: ${phone}`);
+console.log(faker.name.bikename());
+console.log(faker.name.bikecc());
+console.log(faker.name.colour());
+console.log(faker.name.cost());
+console.log(faker.name.showroomlocation());
+console.log(faker.phone.phoneNumber());
